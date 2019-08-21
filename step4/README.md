@@ -7,7 +7,8 @@ processing-log-lines を試す
 $ ping localhost
 PING localhost (127.0.0.1) 56(84) bytes of data.
 64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.090 ms
-              ^^^^^^^^^ ココをラベルにする
+              ^^^^^^^^^ 
+              ココをラベルにする
 ```
 
 ## promtail.yaml
@@ -53,11 +54,7 @@ ping 打って
 
 grafana で確認
 
-
-
-
-
-
+![image](./images/2019-08-21_20h40_03.png)
 
 
 ## 参考
