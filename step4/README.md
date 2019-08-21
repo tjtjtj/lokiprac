@@ -38,9 +38,9 @@ scrape_configs:
       selector: '{filename="/var/log/ping.log"}'
       stages:
       - regex:
-          expression: '^[0-9]+ bytes from (?P<remote>[a-zA-Z0-9\-\.]+) '   <--- ?P<remote> で抽出したのが
+          expression: '^[0-9]+ bytes from (?P<remote>[a-zA-Z0-9\-\.]+) '   <--- ?P<remote> で抽出し
       - labels:
-          remote:                                                          <--- remote ラベルになる
+          remote:                                                          <--- remote ラベルにする
 ```
 
 ## grafana で確認
